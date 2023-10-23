@@ -1,15 +1,9 @@
 <?php
  include('./config.php');  
-//  include('./function.php');
 
-
-//  $data= $conn->query("select * from photos")->fetchAll();
-
-
-///pageination
 $page= isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $perpage= isset($GET['per_page']) && $_GET['per_page'] <=10 ? (int)$_GET['per_page'] : 4;
-//
+
 $start=($page>1) ? ($page * $perpage) - $perpage : 0;
 
 $articles= $conn->prepare(" SELECT SQL_CALC_FOUND_ROWS photo_id, photo_title
@@ -18,31 +12,9 @@ limit {$start}, {$perpage}");
 $articles->execute();
 $articles = $articles->fetchAll(PDO::FETCH_ASSOC);
 
-//pages
+
 $total= $conn->query("SELECT FOUND_ROWS() as total")->fetch()['total'];
 $pages=ceil($total/$perpage);
-
-
-///اسامي المنتجات
-
-//  function GetDetail() 
-// {
-
-// while ($row = $stmt->fetch()) {
-//     $phototitle= $row['photo_title'];
-//     $photdate = $row['Photo_Date'];
-//     $images= $row['photo_image'];
-//     echo  " <div class='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5'>
-//     <figure class='effect-ming tm-video-item'>
-//         <img src='./img/$images' alt='$phototitle' class='img-fluid'>";
-//     }
-// }
-
-
-// ?>
-
-   
-  
 
 
 
@@ -517,12 +489,6 @@ while ($row = $stmt->fetch()) {
 </div>
 </div>
 </div> -->
-
-
-
-
-
-
 
 
     </footer>
