@@ -1,10 +1,5 @@
 <?php
- include('./config.php');   //عملنا كونكت بين الداتا بيز والفايل عن طريق فايل تاني 
-
-
-
-
-
+ include('./config.php'); 
 
 ?>
 <!DOCTYPE html>
@@ -91,12 +86,6 @@ https://templatemo.com/tm-556-catalog-z
 // }
 //  }
     ?>
-
-
-
-
-
-
 
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
