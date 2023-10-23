@@ -1,7 +1,6 @@
 <?php
- include('./config.php');   //عملنا كونكت بين الداتا بيز والفايل عن طريق فايل تاني 
+ include('./config.php'); 
 
-/// مسار الفولدر+/css/bootstrap.css
 ?>
 <!DOCTYPE html>
 <html lang="en">
