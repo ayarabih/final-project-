@@ -35,19 +35,9 @@ CREATE TABLE `photos` (
 
 
 INSERT INTO `photos` (`photo_title`, `photo_License`, `Photo_Date`, `photo_Dimension`, `photo_format`, `photo_active`, `photo_tag`, `photo_image`, `photo_id`, `category_id`) VALUES
-('samsung', 'License samsung', '2023-10-01', '400*500', 'JPG File (.jpg)', 'on', 'phone', 0x322e6a7067, 43, 1),
-('oppo', 'License oppo', '2023-10-08', '400*550', 'JPG File (.jpg)', 'on', 'phone', 0x3831664f7668654974314c2e5f41435f5546313030302c313030305f514c38305f2e6a7067, 52, 1),
-('headphone', 'License headphone', '2023-10-13', '500*500', 'JPG File (.jpg)', 'on', '', 0x36314c6a496f7930684f4c2e5f41435f53583637395f2e6a7067, 53, 3),
-('navo', 'License navo', '2023-10-24', '550*650', 'JPG File (.jpg)', 'on', '', 0x6e6f766131302d73652e706e67, 54, 1),
-('iphone', 'License iphone', '2023-10-10', '500*650', 'JPG File (.jpg)', 'on', '', 0x70686f746f2d313531313730373137313633342d3566383937666630326161392e6a7067, 58, 1),
-('headphone', 'License headphone', '2023-10-10', '550*600', 'JPG File (.jpg)', 'on', '', 0x6865616470686f6e652d616972706f64732d6d61782d776972656c6573732d77686974652e6a7067, 59, 3),
-('headphone', 'License headphone', '2023-10-10', '400*600', 'JPG File (.jpg)', 'on', 'headphone', 0x6865616470686f6e652d616972706f64732d6d61782d776972656c6573732d77686974652e6a7067, 60, 3),
-('phone', 'License', '2023-08-23', '500*600', 'JPG File (.jpg)', 'on', 'phone', 0x436170747572652e4a5047, 61, 1),
-('apple', 'License apple', '2023-10-01', '500*500', 'JPG File (.jpg)', 'on', '', 0x312e6a7067, 71, 1),
-('laptop', 'License laptop', '2023-10-05', '500*500', 'JPG File (.jpg)', 'on', '3', 0x70686f746f2d313630333330323537363833372d3337353631623265323330322e6a7067, 73, 3),
-('laptop', 'License laptop', '2023-10-05', '500*500', 'JPG File (.jpg)', 'on', '3', 0x4163657220417370697265203320413331352c2069332d3130303547312c2034472c203154422c31352e706e67, 74, 3),
-('laptop', 'License laptop', '2023-10-05', '500*500', 'JPG File (.jpg)', 'on', '3', 0x4163657220417370697265203320413331352c2069332d3130303547312c2034472c203154422c31352e706e67, 75, 3),
-('laptop', 'License laptop', '2023-10-05', '500*500', 'JPG File (.jpg)', 'on', '3', 0x63373363643735302d656430372d313165632d616264662d3762316166356231653638332e6a7067, 76, 3);
+('yellow', 'License yellow', '2023-10-01', '400*500', 'JPG File (.jpg)', 'on', 'girl', 0x322e6a7067, 43, 1),
+('black', 'License black', '2023-10-08', '400*550', 'JPG File (.jpg)', 'on', 'girl', 0x3831664f7668654974314c2e5f41435f5546313030302c313030305f514c38305f2e6a7067, 52, 1),
+('girl', 'License girl', '2023-10-13', '500*500', 'JPG File (.jpg)', 'on', 'girl', 0x36314c6a496f7930684f4c2e5f41435f53583637395f2e6a7067, 53, 3),
 
 
 
